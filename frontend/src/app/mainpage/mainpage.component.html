@@ -1,0 +1,7 @@
+<h3>Angular 19 + ASP.NET 9 + SQL</h3>
+
+<div cdkDropList class="example-list" (cdkDropListDropped)="drop($event)">
+  @for (pokemon of lstData; track pokemon) {
+  <div class="example-box" cdkDrag>{{ pokemon.name }}</div>
+  }
+</div>
