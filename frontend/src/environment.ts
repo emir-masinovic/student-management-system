@@ -1,3 +1,4 @@
 export const environment = {
-  apiUrl: 'http://localhost:5065/api/',
+  apiUrl:
+    'https://studentmanagementsystemapi-gdhkf7g0fjhthja6.italynorth-01.azurewebsites.net/api/',
 };
